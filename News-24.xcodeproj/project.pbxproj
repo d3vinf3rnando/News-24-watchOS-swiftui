@@ -15,6 +15,7 @@
 		D8C076B42902960C007BF697 /* News_24_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076B32902960C007BF697 /* News_24_Watch_AppTests.swift */; };
 		D8C076BE2902960C007BF697 /* News_24_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076BD2902960C007BF697 /* News_24_Watch_AppUITests.swift */; };
 		D8C076C02902960C007BF697 /* News_24_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076BF2902960C007BF697 /* News_24_Watch_AppUITestsLaunchTests.swift */; };
+		D8C076D12902C4F0007BF697 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076D02902C4F0007BF697 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D8C076B92902960C007BF697 /* News-24 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "News-24 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C076BD2902960C007BF697 /* News_24_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_24_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		D8C076BF2902960C007BF697 /* News_24_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_24_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8C076D02902C4F0007BF697 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D8C0769029029609007BF697 = {
 			isa = PBXGroup;
 			children = (
+				D8C076D02902C4F0007BF697 /* SplashScreenView.swift */,
 				D8C076A129029609007BF697 /* News-24 Watch App */,
 				D8C076B22902960C007BF697 /* News-24 Watch AppTests */,
 				D8C076BC2902960C007BF697 /* News-24 Watch AppUITests */,
@@ -311,6 +314,7 @@
 			files = (
 				D8C076A529029609007BF697 /* ContentView.swift in Sources */,
 				D8C076A329029609007BF697 /* News_24App.swift in Sources */,
+				D8C076D12902C4F0007BF697 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
