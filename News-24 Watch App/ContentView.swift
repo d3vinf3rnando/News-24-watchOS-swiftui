@@ -138,7 +138,7 @@ struct ContentView: View {
                             .fontWeight(Font.Weight.semibold)
                         Spacer()
                             .frame(height:10)
-                           
+                            
                     }
                     
                     VStack {
@@ -152,19 +152,14 @@ struct ContentView: View {
                             .padding(10)
                             .fontWeight(Font.Weight.semibold)
                         Spacer()
-                            .frame(height:10)
-                           
+                            .frame(height:10)                           
                     }
-                  
-                    
                 }
             .navigationTitle("News 24")
             }
         }
         
     }
-    
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -201,6 +196,19 @@ struct News2:View{
 
 
 struct News3:View{
+    var body: some View{
+        ScrollView{
+            VStack{
+                Text("The pound fell against the dollar on Friday as new figures showed a gloomy picture for the UK economy.\n\nSterling slipped to $1.11, after rallying on Thursday as Prime Minister Liz Truss resigned.\n\nHowever, it clawed back losses on Friday evening and was back up to around $1.12 against the dollar.\n\nThe volatility in the pound came after official figures showed government borrowing rose to its second highest September on record.\n\nMeanwhile, people are shopping less than they did before the coronavirus pandemic, according to figures from the Office For National Statistics (ONS).\n\nRetail sales fell by more than expected last month, dropping 1.4% and continuing their slide from August, the official figures showed.\n\nThe pound's latest slide comes after a period of volatile trading for the currency.")
+                    .padding(10)
+            }
+        }
+        .navigationTitle("News 24")
+    }
+        
+}
+
+struct News4:View{
     var body: some View{
         ScrollView{
             VStack{
