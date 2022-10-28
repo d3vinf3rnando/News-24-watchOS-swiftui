@@ -16,6 +16,7 @@
 		D8C076BE2902960C007BF697 /* News_24_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076BD2902960C007BF697 /* News_24_Watch_AppUITests.swift */; };
 		D8C076C02902960C007BF697 /* News_24_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076BF2902960C007BF697 /* News_24_Watch_AppUITestsLaunchTests.swift */; };
 		D8C076D12902C4F0007BF697 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076D02902C4F0007BF697 /* SplashScreenView.swift */; };
+		D8C076D7290A60F4007BF697 /* newsApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C076D6290A60F4007BF697 /* newsApiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		D8C076BD2902960C007BF697 /* News_24_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_24_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		D8C076BF2902960C007BF697 /* News_24_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_24_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D8C076D02902C4F0007BF697 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		D8C076D6290A60F4007BF697 /* newsApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsApiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				D8C076A229029609007BF697 /* News_24App.swift */,
 				D8C076A429029609007BF697 /* ContentView.swift */,
+				D8C076D6290A60F4007BF697 /* newsApiView.swift */,
 				D8C076A62902960C007BF697 /* Assets.xcassets */,
 				D8C076A82902960C007BF697 /* Preview Content */,
 			);
@@ -314,6 +317,7 @@
 			files = (
 				D8C076A529029609007BF697 /* ContentView.swift in Sources */,
 				D8C076A329029609007BF697 /* News_24App.swift in Sources */,
+				D8C076D7290A60F4007BF697 /* newsApiView.swift in Sources */,
 				D8C076D12902C4F0007BF697 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
